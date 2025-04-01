@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emily Sanders</title>
     <link rel="stylesheet" href="styles.css">
+    <title>My First Web Page</title>
+    <link rel="stylesheet" href="stylesheet.css">
     <script src="https://kit.fontawesome.com/6eb6eec916.js" crossorigin="anonymous"></script>
 </head>
 
@@ -15,7 +16,13 @@
 
     <main>
         <section id="Q1">
-                <p>I am finishing my:<BR>
+            <p>
+                I am finishing my:
+                  <span class="tooltip">
+                    <i class="fa-solid fa-asterisk"></i>
+                    <span class="tooltip tooltiptext">Required Field</span>
+                </span>
+              <BR>
                 <input type="radio" name="1.The word which means house is" value="1">first year at Iowa<BR>
                 <input type="radio" name="1.The word which means house is" value="2">second year at Iowa<BR>
                 <input type="radio" name="1.The word which means house is" value="3">third year at iowa<BR>
@@ -25,7 +32,13 @@
         </section>
 
         <section>
-            <p>BAIS core classes I have completed</p>
+            <p>
+                BAIS core classes I have completed
+                  <span class="tooltip">
+                    <i class="fa-solid fa-asterisk"></i>
+                    <span class="tooltip tooltiptext">Required Field</span>
+                </span>
+              <BR>
             <input type="checkbox" name="IS">Information Systems<br>
             <input type="checkbox" name="Op">Operations<br>
             <input type="checkbox" name="FBA">Foundations of Business Analytics<br>
